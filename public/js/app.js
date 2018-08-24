@@ -100046,8 +100046,7 @@ var staticRenderFns = [
                             _c("li", [
                               _c("img", {
                                 attrs: {
-                                  src:
-                                    "asset('public/assets/images/users/1.jpg')",
+                                  src: "public/assets/images/users/1.jpg",
                                   alt: "user",
                                   "data-toggle": "tooltip",
                                   "data-placement": "top",
@@ -104767,10 +104766,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'top-bar',
@@ -104803,19 +104798,39 @@ var render = function() {
               { staticClass: "navbar-brand", attrs: { to: "/" } },
               [
                 _c("b", [
-                  _vm._v(
-                    "\n                    dasdsadasdasdasdsad\n                "
-                  ),
+                  _c("img", {
+                    staticClass: "dark-logo",
+                    attrs: {
+                      src: "public/assets/images/logo-icon.png",
+                      alt: "homepage"
+                    }
+                  }),
                   _vm._v(" "),
-                  _vm._v("\n                    KH\n                    "),
-                  _vm._v(" "),
-                  _vm._v("\n                    KH\n                ")
+                  _c("img", {
+                    staticClass: "light-logo",
+                    attrs: {
+                      src: "public/assets/images/logo-light-icon.png",
+                      alt: "homepage"
+                    }
+                  })
                 ]),
                 _vm._v(" "),
                 _c("span", [
-                  _vm._v("\n                    KH\n                    "),
+                  _c("img", {
+                    staticClass: "dark-logo",
+                    attrs: {
+                      src: "public/assets/images/logo-icon.png",
+                      alt: "homepage"
+                    }
+                  }),
                   _vm._v(" "),
-                  _vm._v("\n                    KH\n                ")
+                  _c("img", {
+                    staticClass: "light-logo",
+                    attrs: {
+                      src: "public/assets/images/logo-light-text.png",
+                      alt: "homepage"
+                    }
+                  })
                 ])
               ]
             )

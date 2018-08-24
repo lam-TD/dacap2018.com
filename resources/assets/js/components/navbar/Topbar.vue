@@ -11,21 +11,18 @@
                   <!-- Logo icon -->
                   <b>
                   <!-- Dark Logo icon -->
-                      <!--<img src="/public/assets/images/logo-icon.png" alt="homepage" class="dark-logo" />-->
-                      Khải Huy
+                      <img src="public/assets/images/logo-icon.png" alt="homepage" class="dark-logo" />
+                      <!--Khải Huy-->
                       <!-- Light Logo icon -->
-                      <!--<img src="/public/assets/images/logo-light-icon.png" alt="homepage" class="light-logo" />-->
-                      Khải Huy
+                      <img src="public/assets/images/logo-light-icon.png" alt="homepage" class="light-logo" />
                   </b>
                   <!--End Logo icon -->
                   <!-- Logo text -->
                   <span>
                        <!-- dark Logo text -->
-                       <!--<img src="/public/assets/images/logo-icon.png" alt="homepage" class="dark-logo" />-->
-                      KH
+                       <img src="public/assets/images/logo-icon.png" alt="homepage" class="dark-logo" />
                       <!-- Light Logo text -->
-                       <!--<img src="/public/assets/images/logo-light-text.png" class="light-logo" alt="homepage" />-->
-                      KH
+                       <img src="public/assets/images/logo-light-text.png" class="light-logo" alt="homepage" />
                   </span>
               </router-link>
           </div>

@@ -587,7 +587,7 @@
                                             <label for="inputSchedule" class=""> <span>Schedule meeting with</span> </label>
                                         </div>
                                         <ul class="assignedto">
-                                            <li><img src="asset('public/assets/images/users/1.jpg')" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Steave"></li>
+                                            <li><img src="public/assets/images/users/1.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Steave"></li>
                                             <li><img src="public/assets/images/users/2.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Jessica"></li>
                                             <li><img src="public/assets/images/users/3.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Priyanka"></li>
                                             <li><img src="public/assets/images/users/4.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Selina"></li>
