@@ -98586,6 +98586,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     name: 'dashboard'
@@ -98971,7 +98973,7 @@ var staticRenderFns = [
                             _c("span", { staticClass: "round" }, [
                               _c("img", {
                                 attrs: {
-                                  src: "assets/images/users/8.jpg",
+                                  src: "public/assets/images/users/8.jpg",
                                   alt: "user",
                                   width: "50"
                                 }
@@ -99000,7 +99002,7 @@ var staticRenderFns = [
                             _c("span", { staticClass: "round" }, [
                               _c("img", {
                                 attrs: {
-                                  src: "assets/images/users/2.jpg",
+                                  src: "public/assets/images/users/2.jpg",
                                   alt: "user",
                                   width: "50"
                                 }
@@ -99029,7 +99031,7 @@ var staticRenderFns = [
                             _c("span", { staticClass: "round round-success" }, [
                               _c("img", {
                                 attrs: {
-                                  src: "assets/images/users/1.jpg",
+                                  src: "public/assets/images/users/1.jpg",
                                   alt: "user",
                                   width: "50"
                                 }
@@ -99058,7 +99060,7 @@ var staticRenderFns = [
                             _c("span", { staticClass: "round round-primary" }, [
                               _c("img", {
                                 attrs: {
-                                  src: "assets/images/users/4.jpg",
+                                  src: "public/assets/images/users/4.jpg",
                                   alt: "user",
                                   width: "50"
                                 }
@@ -99087,7 +99089,7 @@ var staticRenderFns = [
                             _c("span", { staticClass: "round round-warning" }, [
                               _c("img", {
                                 attrs: {
-                                  src: "assets/images/users/5.jpg",
+                                  src: "public/assets/images/users/5.jpg",
                                   alt: "user",
                                   width: "50"
                                 }
@@ -99116,7 +99118,7 @@ var staticRenderFns = [
                             _c("span", { staticClass: "round round-danger" }, [
                               _c("img", {
                                 attrs: {
-                                  src: "assets/images/users/1.jpg",
+                                  src: "public/assets/images/users/1.jpg",
                                   alt: "user",
                                   width: "50"
                                 }
@@ -99188,7 +99190,7 @@ var staticRenderFns = [
                     _c("span", { staticClass: "round" }, [
                       _c("img", {
                         attrs: {
-                          src: "assets/images/users/1.jpg",
+                          src: "public/assets/images/users/1.jpg",
                           alt: "user",
                           width: "50"
                         }
@@ -99238,7 +99240,7 @@ var staticRenderFns = [
                     _c("span", { staticClass: "round" }, [
                       _c("img", {
                         attrs: {
-                          src: "assets/images/users/2.jpg",
+                          src: "public/assets/images/users/2.jpg",
                           alt: "user",
                           width: "50"
                         }
@@ -99289,7 +99291,7 @@ var staticRenderFns = [
                     _c("span", { staticClass: "round" }, [
                       _c("img", {
                         attrs: {
-                          src: "assets/images/users/3.jpg",
+                          src: "public/assets/images/users/3.jpg",
                           alt: "user",
                           width: "50"
                         }
@@ -99339,7 +99341,7 @@ var staticRenderFns = [
                     _c("span", { staticClass: "round" }, [
                       _c("img", {
                         attrs: {
-                          src: "assets/images/users/4.jpg",
+                          src: "public/assets/images/users/4.jpg",
                           alt: "user",
                           width: "50"
                         }
@@ -99726,7 +99728,7 @@ var staticRenderFns = [
                       _c("div", { staticClass: "chat-img" }, [
                         _c("img", {
                           attrs: {
-                            src: "assets/images/users/1.jpg",
+                            src: "public/assets/images/users/1.jpg",
                             alt: "user"
                           }
                         })
@@ -99751,7 +99753,7 @@ var staticRenderFns = [
                       _c("div", { staticClass: "chat-img" }, [
                         _c("img", {
                           attrs: {
-                            src: "assets/images/users/2.jpg",
+                            src: "public/assets/images/users/2.jpg",
                             alt: "user"
                           }
                         })
@@ -99782,7 +99784,7 @@ var staticRenderFns = [
                       _c("div", { staticClass: "chat-img" }, [
                         _c("img", {
                           attrs: {
-                            src: "assets/images/users/5.jpg",
+                            src: "public/assets/images/users/5.jpg",
                             alt: "user"
                           }
                         })
@@ -99805,7 +99807,7 @@ var staticRenderFns = [
                       _c("div", { staticClass: "chat-img" }, [
                         _c("img", {
                           attrs: {
-                            src: "assets/images/users/5.jpg",
+                            src: "public/assets/images/users/5.jpg",
                             alt: "user"
                           }
                         })
@@ -99820,7 +99822,7 @@ var staticRenderFns = [
                       _c("div", { staticClass: "chat-img" }, [
                         _c("img", {
                           attrs: {
-                            src: "assets/images/users/3.jpg",
+                            src: "public/assets/images/users/3.jpg",
                             alt: "user"
                           }
                         })
@@ -100044,7 +100046,8 @@ var staticRenderFns = [
                             _c("li", [
                               _c("img", {
                                 attrs: {
-                                  src: "assets/images/users/1.jpg",
+                                  src:
+                                    "asset('public/assets/images/users/1.jpg')",
                                   alt: "user",
                                   "data-toggle": "tooltip",
                                   "data-placement": "top",
@@ -100057,7 +100060,7 @@ var staticRenderFns = [
                             _c("li", [
                               _c("img", {
                                 attrs: {
-                                  src: "assets/images/users/2.jpg",
+                                  src: "public/assets/images/users/2.jpg",
                                   alt: "user",
                                   "data-toggle": "tooltip",
                                   "data-placement": "top",
@@ -100070,7 +100073,7 @@ var staticRenderFns = [
                             _c("li", [
                               _c("img", {
                                 attrs: {
-                                  src: "assets/images/users/3.jpg",
+                                  src: "public/assets/images/users/3.jpg",
                                   alt: "user",
                                   "data-toggle": "tooltip",
                                   "data-placement": "top",
@@ -100083,7 +100086,7 @@ var staticRenderFns = [
                             _c("li", [
                               _c("img", {
                                 attrs: {
-                                  src: "assets/images/users/4.jpg",
+                                  src: "public/assets/images/users/4.jpg",
                                   alt: "user",
                                   "data-toggle": "tooltip",
                                   "data-placement": "top",
@@ -100127,7 +100130,7 @@ var staticRenderFns = [
                             _c("li", [
                               _c("img", {
                                 attrs: {
-                                  src: "assets/images/users/3.jpg",
+                                  src: "public/assets/images/users/3.jpg",
                                   alt: "user",
                                   "data-toggle": "tooltip",
                                   "data-placement": "top",
@@ -100140,7 +100143,7 @@ var staticRenderFns = [
                             _c("li", [
                               _c("img", {
                                 attrs: {
-                                  src: "assets/images/users/4.jpg",
+                                  src: "public/assets/images/users/4.jpg",
                                   alt: "user",
                                   "data-toggle": "tooltip",
                                   "data-placement": "top",
@@ -100271,7 +100274,7 @@ var staticRenderFns = [
                             _c("li", [
                               _c("img", {
                                 attrs: {
-                                  src: "assets/images/users/1.jpg",
+                                  src: "public/assets/images/users/1.jpg",
                                   alt: "user",
                                   "data-toggle": "tooltip",
                                   "data-placement": "top",
@@ -100284,7 +100287,7 @@ var staticRenderFns = [
                             _c("li", [
                               _c("img", {
                                 attrs: {
-                                  src: "assets/images/users/2.jpg",
+                                  src: "public/assets/images/users/2.jpg",
                                   alt: "user",
                                   "data-toggle": "tooltip",
                                   "data-placement": "top",
@@ -100297,7 +100300,7 @@ var staticRenderFns = [
                             _c("li", [
                               _c("img", {
                                 attrs: {
-                                  src: "assets/images/users/4.jpg",
+                                  src: "public/assets/images/users/4.jpg",
                                   alt: "user",
                                   "data-toggle": "tooltip",
                                   "data-placement": "top",
@@ -104760,6 +104763,14 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'top-bar',
@@ -104783,13 +104794,40 @@ var render = function() {
       "nav",
       { staticClass: "navbar top-navbar navbar-expand-md navbar-light" },
       [
-        _vm._m(0),
+        _c(
+          "div",
+          { staticClass: "navbar-header" },
+          [
+            _c(
+              "router-link",
+              { staticClass: "navbar-brand", attrs: { to: "/" } },
+              [
+                _c("b", [
+                  _vm._v(
+                    "\n                    dasdsadasdasdasdsad\n                "
+                  ),
+                  _vm._v(" "),
+                  _vm._v("\n                    KH\n                    "),
+                  _vm._v(" "),
+                  _vm._v("\n                    KH\n                ")
+                ]),
+                _vm._v(" "),
+                _c("span", [
+                  _vm._v("\n                    KH\n                    "),
+                  _vm._v(" "),
+                  _vm._v("\n                    KH\n                ")
+                ])
+              ]
+            )
+          ],
+          1
+        ),
         _vm._v(" "),
         _c("div", { staticClass: "navbar-collapse" }, [
           _c("ul", { staticClass: "navbar-nav mr-auto mt-md-0" }, [
-            _vm._m(1),
+            _vm._m(0),
             _vm._v(" "),
-            _vm._m(2),
+            _vm._m(1),
             _vm._v(" "),
             _c("li", { staticClass: "nav-item dropdown" }, [
               _c(
@@ -104812,11 +104850,11 @@ var render = function() {
                 [
                   _c("i", { staticClass: "mdi mdi-message" }),
                   _vm._v(" "),
-                  _vm._m(3)
+                  _vm._m(2)
                 ]
               ),
               _vm._v(" "),
-              _vm._m(4)
+              _vm._m(3)
             ]),
             _vm._v(" "),
             _c("li", { staticClass: "nav-item dropdown" }, [
@@ -104841,11 +104879,11 @@ var render = function() {
                 [
                   _c("i", { staticClass: "mdi mdi-email" }),
                   _vm._v(" "),
-                  _vm._m(5)
+                  _vm._m(4)
                 ]
               ),
               _vm._v(" "),
-              _vm._m(6)
+              _vm._m(5)
             ]),
             _vm._v(" "),
             _c("li", { staticClass: "nav-item dropdown mega-dropdown" }, [
@@ -104869,12 +104907,12 @@ var render = function() {
                 [_c("i", { staticClass: "mdi mdi-view-grid" })]
               ),
               _vm._v(" "),
-              _vm._m(7)
+              _vm._m(6)
             ])
           ]),
           _vm._v(" "),
           _c("ul", { staticClass: "navbar-nav my-lg-0" }, [
-            _vm._m(8),
+            _vm._m(7),
             _vm._v(" "),
             _c("li", { staticClass: "nav-item dropdown" }, [
               _c(
@@ -104897,12 +104935,15 @@ var render = function() {
                 [
                   _c("img", {
                     staticClass: "profile-pic",
-                    attrs: { src: "assets/images/users/1.jpg", alt: "user" }
+                    attrs: {
+                      src: "public/assets/images/users/1.jpg",
+                      alt: "user"
+                    }
                   })
                 ]
               ),
               _vm._v(" "),
-              _vm._m(9)
+              _vm._m(8)
             ])
           ])
         ])
@@ -104911,38 +104952,6 @@ var render = function() {
   ])
 }
 var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "navbar-header" }, [
-      _c("a", { staticClass: "navbar-brand", attrs: { href: "index.html" } }, [
-        _c("b", [
-          _c("img", {
-            staticClass: "dark-logo",
-            attrs: { src: "assets/images/logo-icon.png", alt: "homepage" }
-          }),
-          _vm._v(" "),
-          _c("img", {
-            staticClass: "light-logo",
-            attrs: { src: "assets/images/logo-light-icon.png", alt: "homepage" }
-          })
-        ]),
-        _vm._v(" "),
-        _c("span", [
-          _c("img", {
-            staticClass: "dark-logo",
-            attrs: { src: "assets/images/logo-text.png", alt: "homepage" }
-          }),
-          _vm._v(" "),
-          _c("img", {
-            staticClass: "light-logo",
-            attrs: { src: "assets/images/logo-light-text.png", alt: "homepage" }
-          })
-        ])
-      ])
-    ])
-  },
   function() {
     var _vm = this
     var _h = _vm.$createElement
@@ -105121,7 +105130,10 @@ var staticRenderFns = [
                 _c("div", { staticClass: "user-img" }, [
                   _c("img", {
                     staticClass: "img-circle",
-                    attrs: { src: "assets/images/users/1.jpg", alt: "user" }
+                    attrs: {
+                      src: "/public/assets/images/users/1.jpg",
+                      alt: "user"
+                    }
                   }),
                   _vm._v(" "),
                   _c("span", {
@@ -105144,7 +105156,10 @@ var staticRenderFns = [
                 _c("div", { staticClass: "user-img" }, [
                   _c("img", {
                     staticClass: "img-circle",
-                    attrs: { src: "assets/images/users/2.jpg", alt: "user" }
+                    attrs: {
+                      src: "/public/assets/images/users/2.jpg",
+                      alt: "user"
+                    }
                   }),
                   _vm._v(" "),
                   _c("span", { staticClass: "profile-status busy pull-right" })
@@ -105165,7 +105180,10 @@ var staticRenderFns = [
                 _c("div", { staticClass: "user-img" }, [
                   _c("img", {
                     staticClass: "img-circle",
-                    attrs: { src: "assets/images/users/3.jpg", alt: "user" }
+                    attrs: {
+                      src: "/public/assets/images/users/3.jpg",
+                      alt: "user"
+                    }
                   }),
                   _vm._v(" "),
                   _c("span", { staticClass: "profile-status away pull-right" })
@@ -105186,7 +105204,10 @@ var staticRenderFns = [
                 _c("div", { staticClass: "user-img" }, [
                   _c("img", {
                     staticClass: "img-circle",
-                    attrs: { src: "assets/images/users/4.jpg", alt: "user" }
+                    attrs: {
+                      src: "/public/assets/images/users/4.jpg",
+                      alt: "user"
+                    }
                   }),
                   _vm._v(" "),
                   _c("span", {
@@ -105259,7 +105280,7 @@ var staticRenderFns = [
                         _c("img", {
                           staticClass: "d-block img-fluid",
                           attrs: {
-                            src: "assets/images/big/img1.jpg",
+                            src: "/public/assets/images/big/img1.jpg",
                             alt: "First slide"
                           }
                         })
@@ -105271,7 +105292,7 @@ var staticRenderFns = [
                         _c("img", {
                           staticClass: "d-block img-fluid",
                           attrs: {
-                            src: "assets/images/big/img2.jpg",
+                            src: "/public/assets/images/big/img2.jpg",
                             alt: "Second slide"
                           }
                         })
@@ -105283,7 +105304,7 @@ var staticRenderFns = [
                         _c("img", {
                           staticClass: "d-block img-fluid",
                           attrs: {
-                            src: "assets/images/big/img3.jpg",
+                            src: "public/assets/images/big/img3.jpg",
                             alt: "Third slide"
                           }
                         })
@@ -105632,7 +105653,10 @@ var staticRenderFns = [
             _c("div", { staticClass: "dw-user-box" }, [
               _c("div", { staticClass: "u-img" }, [
                 _c("img", {
-                  attrs: { src: "assets/images/users/1.jpg", alt: "user" }
+                  attrs: {
+                    src: "public/assets/images/users/1.jpg",
+                    alt: "user"
+                  }
                 })
               ]),
               _vm._v(" "),
@@ -105678,13 +105702,6 @@ var staticRenderFns = [
           ]),
           _vm._v(" "),
           _c("li", { staticClass: "divider", attrs: { role: "separator" } }),
-          _vm._v(" "),
-          _c("li", [
-            _c("a", { attrs: { href: "#" } }, [
-              _c("i", { staticClass: "ti-settings" }),
-              _vm._v(" Account Setting")
-            ])
-          ]),
           _vm._v(" "),
           _c("li", { staticClass: "divider", attrs: { role: "separator" } }),
           _vm._v(" "),

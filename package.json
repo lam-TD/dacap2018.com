@@ -23,6 +23,7 @@
     },
     "dependencies": {
         "element-ui": "^2.4.6",
-        "vue-nprogress": "^0.1.5"
+        "vue-nprogress": "^0.1.5",
+        "vue-router": "^3.0.1"
     }
 }
