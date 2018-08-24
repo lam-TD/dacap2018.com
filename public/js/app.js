@@ -103165,7 +103165,6 @@ var render = function() {
               [
                 _c("b", [
                   _c("img", {
-                    staticClass: "hidden-icon",
                     attrs: {
                       id: "large-icon",
                       src: "public/assets/images/logokh.png"

@@ -10,7 +10,7 @@
               <router-link class="navbar-brand" to="/">
                   <!-- Logo icon -->
                   <b>
-                      <img id="large-icon" src="public/assets/images/logokh.png" class="hidden-icon"/>
+                      <img id="large-icon" src="public/assets/images/logokh.png"/>
                       <img id="small-icon" src="public/assets/images/logokh_small.png" style="display: none"/>
                   </b>
                   <!--End Logo icon -->
