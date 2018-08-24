@@ -7,7 +7,7 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <title>Đa cấp 2018</title>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link href="{{asset('css/app.css')}}">
+        <link href="{{asset('public/css/app.css')}}">
 
         {{--style--}}
         <link rel="icon" type="image/png" sizes="16x16" href="public/assets/images/favicon.png">
@@ -20,7 +20,7 @@
         <!-- Custom CSS -->
         <link href="public/template/css/style.css" rel="stylesheet">
         <!-- You can change the theme colors from here -->
-        <link href="css/colors/blue-dark.css" id="theme" rel="stylesheet">
+        <link href="public/css/colors/blue-dark.css" id="theme" rel="stylesheet">
         <!-- element ui vue -->
         <link rel="stylesheet" href="https://unpkg.com/element-ui@2.4.6/lib/theme-chalk/index.css">
         <link rel="stylesheet" href="public/template/css/custom.css">
@@ -41,7 +41,7 @@
         <script src="public/assets/plugins/bootstrap/js/popper.min.js"></script>
         <script src="public/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 
-        <script src="{{asset('js/app.js')}}"></script>
+        <script type="text/javascript" src="{{asset('public/js/app.js')}}"></script>
 
         <!-- slimscrollbar scrollbar JavaScript -->
         <script src="public/template/js/jquery.slimscroll.js"></script>
