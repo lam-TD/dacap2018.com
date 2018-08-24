@@ -103126,14 +103126,20 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: 'top-bar',
-  methods: {
-    dropdown: function dropdown(id) {
-      $('#' + id).toggle("show");
+    name: 'top-bar',
+    methods: {
+        dropdown: function dropdown(id) {
+            $('#' + id).toggle("show");
+        },
+        hidden_avatar: function hidden_avatar() {
+            $('#large-icon').toggle("hidden-icon");
+            $('#small-icon').toggle("hidden-icon-small");
+        }
     }
-  }
 });
 
 /***/ }),
@@ -103159,7 +103165,19 @@ var render = function() {
               [
                 _c("b", [
                   _c("img", {
-                    attrs: { src: "public/assets/images/logokh.png" }
+                    staticClass: "hidden-icon",
+                    attrs: {
+                      id: "large-icon",
+                      src: "public/assets/images/logokh.png"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("img", {
+                    staticStyle: { display: "none" },
+                    attrs: {
+                      id: "small-icon",
+                      src: "public/assets/images/logokh_small.png"
+                    }
                   })
                 ]),
                 _vm._v(" "),
@@ -103171,10 +103189,36 @@ var render = function() {
         ),
         _vm._v(" "),
         _c("div", { staticClass: "navbar-collapse" }, [
-          _vm._m(0),
+          _c("ul", { staticClass: "navbar-nav mr-auto mt-md-0" }, [
+            _c("li", { staticClass: "nav-item" }, [
+              _c(
+                "a",
+                {
+                  staticClass:
+                    "nav-link nav-toggler hidden-md-up text-muted waves-effect waves-dark",
+                  attrs: { href: "javascript:void(0)" },
+                  on: { click: _vm.hidden_avatar }
+                },
+                [_c("i", { staticClass: "mdi mdi-menu" })]
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "nav-item m-l-10" }, [
+              _c(
+                "a",
+                {
+                  staticClass:
+                    "nav-link sidebartoggler hidden-sm-down text-muted waves-effect waves-dark",
+                  attrs: { href: "javascript:void(0)" },
+                  on: { click: _vm.hidden_avatar }
+                },
+                [_c("i", { staticClass: "ti-menu" })]
+              )
+            ])
+          ]),
           _vm._v(" "),
           _c("ul", { staticClass: "navbar-nav my-lg-0" }, [
-            _vm._m(1),
+            _vm._m(0),
             _vm._v(" "),
             _c("li", { staticClass: "nav-item dropdown" }, [
               _c(
@@ -103205,7 +103249,7 @@ var render = function() {
                 ]
               ),
               _vm._v(" "),
-              _vm._m(2)
+              _vm._m(1)
             ])
           ])
         ])
@@ -103214,36 +103258,6 @@ var render = function() {
   ])
 }
 var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("ul", { staticClass: "navbar-nav mr-auto mt-md-0" }, [
-      _c("li", { staticClass: "nav-item" }, [
-        _c(
-          "a",
-          {
-            staticClass:
-              "nav-link nav-toggler hidden-md-up text-muted waves-effect waves-dark",
-            attrs: { href: "javascript:void(0)" }
-          },
-          [_c("i", { staticClass: "mdi mdi-menu" })]
-        )
-      ]),
-      _vm._v(" "),
-      _c("li", { staticClass: "nav-item m-l-10" }, [
-        _c(
-          "a",
-          {
-            staticClass:
-              "nav-link sidebartoggler hidden-sm-down text-muted waves-effect waves-dark",
-            attrs: { href: "javascript:void(0)" }
-          },
-          [_c("i", { staticClass: "ti-menu" })]
-        )
-      ])
-    ])
-  },
   function() {
     var _vm = this
     var _h = _vm.$createElement

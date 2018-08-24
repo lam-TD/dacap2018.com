@@ -10,19 +10,13 @@
               <router-link class="navbar-brand" to="/">
                   <!-- Logo icon -->
                   <b>
-                  <!-- Dark Logo icon -->
-                      <img src="public/assets/images/logokh.png"/>
-                      <!--Khải Huy-->
-                      <!-- Light Logo icon -->
-                      <!--<img src="public/assets/images/logo-light-icon.png" alt="homepage" class="light-logo" />-->
+                      <img id="large-icon" src="public/assets/images/logokh.png" class="hidden-icon"/>
+                      <img id="small-icon" src="public/assets/images/logokh_small.png" style="display: none"/>
                   </b>
                   <!--End Logo icon -->
                   <!-- Logo text -->
                   <span>
-                       <!-- dark Logo text -->
-                       <!--<img src="public/assets/images/logo-icon.png" alt="homepage" class="dark-logo" />-->
-                      <!-- Light Logo text -->
-                       <!--<img src="public/assets/images/logo-light-text.png" class="light-logo" alt="homepage" />-->
+                        <!--<img src="public/assets/images/logokh.png"/>-->
                   </span>
               </router-link>
           </div>
@@ -35,8 +29,16 @@
               <!-- ============================================================== -->
               <ul class="navbar-nav mr-auto mt-md-0">
                   <!-- This is  -->
-                  <li class="nav-item"> <a class="nav-link nav-toggler hidden-md-up text-muted waves-effect waves-dark" href="javascript:void(0)"><i class="mdi mdi-menu"></i></a> </li>
-                  <li class="nav-item m-l-10"> <a class="nav-link sidebartoggler hidden-sm-down text-muted waves-effect waves-dark" href="javascript:void(0)"><i class="ti-menu"></i></a> </li>
+                  <li class="nav-item">
+                      <a @click="hidden_avatar" class="nav-link nav-toggler hidden-md-up text-muted waves-effect waves-dark" href="javascript:void(0)">
+                        <i class="mdi mdi-menu"></i>
+                      </a>
+                  </li>
+                  <li class="nav-item m-l-10">
+                      <a @click="hidden_avatar" class="nav-link sidebartoggler hidden-sm-down text-muted waves-effect waves-dark" href="javascript:void(0)">
+                          <i class="ti-menu"></i>
+                      </a>
+                  </li>
                   <!-- ============================================================== -->
               </ul>
               <!-- ============================================================== -->
@@ -91,6 +93,10 @@
         methods: {
           dropdown: function(id){
             $('#' + id).toggle("show");
+          },
+          hidden_avatar: function () {
+              $('#large-icon').toggle("hidden-icon");
+              $('#small-icon').toggle("hidden-icon-small");
           }
         }
     }

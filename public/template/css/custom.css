@@ -12,3 +12,27 @@ input, button, select, .card{
 .sidebar-nav > ul > li > a {
     color: white !important;
 }
+.hidden-icon {
+    display: none;
+}
+
+.hidden-icon-small {
+    display: block !important;
+}
+
+@media (min-width: 768px){
+    .hidden-icon {
+        display: block;
+    }
+
+}
+
+@media (max-width: 480px){
+    .hidden-icon {
+        display: none;
+    }
+
+    .hidden-icon {
+        display: none;
+    }
+}
