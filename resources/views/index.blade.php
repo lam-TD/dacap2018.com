@@ -41,7 +41,7 @@
         <script src="public/assets/plugins/bootstrap/js/popper.min.js"></script>
         <script src="public/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 
-        <script type="text/javascript" src="{{asset('public/js/app.js')}}"></script>
+        <script type="text/javascript" src="public/js/app.js"></script>
 
         <!-- slimscrollbar scrollbar JavaScript -->
         <script src="public/template/js/jquery.slimscroll.js"></script>
