@@ -205,42 +205,42 @@
                                     </thead>
                                     <tbody>
                                     <tr>
-                                        <td style="width:50px;"><span class="round"><img src="assets/images/users/8.jpg" alt="user" width="50"></span></td>
+                                        <td style="width:50px;"><span class="round"><img src="public/assets/images/users/8.jpg" alt="user" width="50"></span></td>
                                         <td>
                                             <h6>Sunil Joshi</h6><small class="text-muted">Web Designer</small></td>
                                         <td><span class="label label-success">Low</span></td>
                                         <td>$3.9K</td>
                                     </tr>
                                     <tr class="active">
-                                        <td><span class="round"><img src="assets/images/users/2.jpg" alt="user" width="50"></span></td>
+                                        <td><span class="round"><img src="public/assets/images/users/2.jpg" alt="user" width="50"></span></td>
                                         <td>
                                             <h6>Andrew</h6><small class="text-muted">Project Manager</small></td>
                                         <td><span class="label label-info">Medium</span></td>
                                         <td>$23.9K</td>
                                     </tr>
                                     <tr>
-                                        <td><span class="round round-success"><img src="assets/images/users/1.jpg" alt="user" width="50"></span></td>
+                                        <td><span class="round round-success"><img src="public/assets/images/users/1.jpg" alt="user" width="50"></span></td>
                                         <td>
                                             <h6>Bhavesh patel</h6><small class="text-muted">Developer</small></td>
                                         <td><span class="label label-primary">High</span></td>
                                         <td>$12.9K</td>
                                     </tr>
                                     <tr>
-                                        <td><span class="round round-primary"><img src="assets/images/users/4.jpg" alt="user" width="50"></span></td>
+                                        <td><span class="round round-primary"><img src="public/assets/images/users/4.jpg" alt="user" width="50"></span></td>
                                         <td>
                                             <h6>Nirav Joshi</h6><small class="text-muted">Frontend Eng</small></td>
                                         <td><span class="label label-danger">Low</span></td>
                                         <td>$10.9K</td>
                                     </tr>
                                     <tr>
-                                        <td><span class="round round-warning"><img src="assets/images/users/5.jpg" alt="user" width="50"></span></td>
+                                        <td><span class="round round-warning"><img src="public/assets/images/users/5.jpg" alt="user" width="50"></span></td>
                                         <td>
                                             <h6>Micheal Doe</h6><small class="text-muted">Content Writer</small></td>
                                         <td><span class="label label-warning">High</span></td>
                                         <td>$12.9K</td>
                                     </tr>
                                     <tr>
-                                        <td><span class="round round-danger"><img src="assets/images/users/1.jpg" alt="user" width="50"></span></td>
+                                        <td><span class="round round-danger"><img src="public/assets/images/users/1.jpg" alt="user" width="50"></span></td>
                                         <td>
                                             <h6>Johnathan</h6><small class="text-muted">Graphic</small></td>
                                         <td><span class="label label-info">High</span></td>
@@ -271,7 +271,7 @@
                         <div class="comment-widgets m-b-20">
                             <!-- Comment Row -->
                             <div class="d-flex flex-row comment-row">
-                                <div class="p-2"><span class="round"><img src="assets/images/users/1.jpg" alt="user" width="50"></span></div>
+                                <div class="p-2"><span class="round"><img src="public/assets/images/users/1.jpg" alt="user" width="50"></span></div>
                                 <div class="comment-text w-100">
                                     <h5>James Anderson</h5>
                                     <div class="comment-footer">
@@ -287,7 +287,7 @@
                             </div>
                             <!-- Comment Row -->
                             <div class="d-flex flex-row comment-row ">
-                                <div class="p-2"><span class="round"><img src="assets/images/users/2.jpg" alt="user" width="50"></span></div>
+                                <div class="p-2"><span class="round"><img src="public/assets/images/users/2.jpg" alt="user" width="50"></span></div>
                                 <div class="comment-text active w-100">
                                     <h5>Michael Jorden</h5>
                                     <div class="comment-footer">
@@ -303,7 +303,7 @@
                             </div>
                             <!-- Comment Row -->
                             <div class="d-flex flex-row comment-row">
-                                <div class="p-2"><span class="round"><img src="assets/images/users/3.jpg" alt="user" width="50"></span></div>
+                                <div class="p-2"><span class="round"><img src="public/assets/images/users/3.jpg" alt="user" width="50"></span></div>
                                 <div class="comment-text w-100">
                                     <h5>Johnathan Doeting</h5>
                                     <div class="comment-footer">
@@ -319,7 +319,7 @@
                             </div>
                             <!-- Comment Row -->
                             <div class="d-flex flex-row comment-row">
-                                <div class="p-2"><span class="round"><img src="assets/images/users/4.jpg" alt="user" width="50"></span></div>
+                                <div class="p-2"><span class="round"><img src="public/assets/images/users/4.jpg" alt="user" width="50"></span></div>
                                 <div class="comment-text w-100">
                                     <h5>James Anderson</h5>
                                     <div class="comment-footer">
@@ -473,7 +473,9 @@
                                 <ul class="chat-list">
                                     <!--chat Row -->
                                     <li>
-                                        <div class="chat-img"><img src="assets/images/users/1.jpg" alt="user" /></div>
+                                        <div class="chat-img">
+                                            <img src="public/assets/images/users/1.jpg" alt="user" />
+                                        </div>
                                         <div class="chat-content">
                                             <h5>James Anderson</h5>
                                             <div class="box bg-light-info">Lorem Ipsum is simply dummy text of the printing & type setting industry.</div>
@@ -482,7 +484,7 @@
                                     </li>
                                     <!--chat Row -->
                                     <li>
-                                        <div class="chat-img"><img src="assets/images/users/2.jpg" alt="user" /></div>
+                                        <div class="chat-img"><img src="public/assets/images/users/2.jpg" alt="user" /></div>
                                         <div class="chat-content">
                                             <h5>Bianca Doe</h5>
                                             <div class="box bg-light-info">It’s Great opportunity to work.</div>
@@ -495,7 +497,7 @@
                                             <h5>Steave Doe</h5>
                                             <div class="box bg-light-inverse">It’s Great opportunity to work.</div>
                                         </div>
-                                        <div class="chat-img"><img src="assets/images/users/5.jpg" alt="user" /></div>
+                                        <div class="chat-img"><img src="public/assets/images/users/5.jpg" alt="user" /></div>
                                         <div class="chat-time">10:57 am</div>
                                     </li>
                                     <!--chat Row -->
@@ -504,12 +506,12 @@
                                             <h5>Steave Doe</h5>
                                             <div class="box bg-light-inverse">It’s Great opportunity to work.</div>
                                         </div>
-                                        <div class="chat-img"><img src="assets/images/users/5.jpg" alt="user" /></div>
+                                        <div class="chat-img"><img src="public/assets/images/users/5.jpg" alt="user" /></div>
                                         <div class="chat-time">10:57 am</div>
                                     </li>
                                     <!--chat Row -->
                                     <li>
-                                        <div class="chat-img"><img src="assets/images/users/3.jpg" alt="user" /></div>
+                                        <div class="chat-img"><img src="public/assets/images/users/3.jpg" alt="user" /></div>
                                         <div class="chat-content">
                                             <h5>Angelina Rhodes</h5>
                                             <div class="box bg-light-info">Well we have good budget for the project</div>
@@ -585,10 +587,10 @@
                                             <label for="inputSchedule" class=""> <span>Schedule meeting with</span> </label>
                                         </div>
                                         <ul class="assignedto">
-                                            <li><img src="assets/images/users/1.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Steave"></li>
-                                            <li><img src="assets/images/users/2.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Jessica"></li>
-                                            <li><img src="assets/images/users/3.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Priyanka"></li>
-                                            <li><img src="assets/images/users/4.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Selina"></li>
+                                            <li><img src="asset('public/assets/images/users/1.jpg')" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Steave"></li>
+                                            <li><img src="public/assets/images/users/2.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Jessica"></li>
+                                            <li><img src="public/assets/images/users/3.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Priyanka"></li>
+                                            <li><img src="public/assets/images/users/4.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Selina"></li>
                                         </ul>
                                     </li>
                                     <li class="list-group-item" data-role="task">
@@ -597,8 +599,8 @@
                                             <label for="inputCall" class=""> <span>Give Purchase report to</span> <span class="label label-danger">Today</span> </label>
                                         </div>
                                         <ul class="assignedto">
-                                            <li><img src="assets/images/users/3.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Priyanka"></li>
-                                            <li><img src="assets/images/users/4.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Selina"></li>
+                                            <li><img src="public/assets/images/users/3.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Priyanka"></li>
+                                            <li><img src="public/assets/images/users/4.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Selina"></li>
                                         </ul>
                                     </li>
                                     <li class="list-group-item" data-role="task">
@@ -628,9 +630,9 @@
                                             <label for="inputForward2" class=""> <span>Important tasks</span> <span class="label label-success">2 weeks</span> </label>
                                         </div>
                                         <ul class="assignedto">
-                                            <li><img src="assets/images/users/1.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Assign to Steave"></li>
-                                            <li><img src="assets/images/users/2.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Assign to Jessica"></li>
-                                            <li><img src="assets/images/users/4.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Assign to Selina"></li>
+                                            <li><img src="public/assets/images/users/1.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Assign to Steave"></li>
+                                            <li><img src="public/assets/images/users/2.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Assign to Jessica"></li>
+                                            <li><img src="public/assets/images/users/4.jpg" alt="user" data-toggle="tooltip" data-placement="top" title="" data-original-title="Assign to Selina"></li>
                                         </ul>
                                     </li>
                                 </ul>
