@@ -10,13 +10,13 @@
         <link href="{{asset('css/app.css')}}">
 
         {{--style--}}
-        <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="public/assets/images/favicon.png">
         <title>Admin Press Admin Template - The Ultimate Bootstrap 4 Admin Template</title>
         <!-- Bootstrap Core CSS -->
-        <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="public/assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="template/css/nprogress.css">
         <!-- morris CSS -->
-        <link href="assets/plugins/morrisjs/morris.css" rel="stylesheet">
+        <link href="public/assets/plugins/morrisjs/morris.css" rel="stylesheet">
         <!-- Custom CSS -->
         <link href="template/css/style.css" rel="stylesheet">
         <!-- You can change the theme colors from here -->
@@ -36,10 +36,10 @@
         </div>
 
         {{--PLUG IN--}}
-        <script src="assets/plugins/jquery/jquery.min.js"></script>
+        <script src="public/assets/plugins/jquery/jquery.min.js"></script>
         <!-- Bootstrap tether Core JavaScript -->
-        <script src="assets/plugins/bootstrap/js/popper.min.js"></script>
-        <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script src="public/assets/plugins/bootstrap/js/popper.min.js"></script>
+        <script src="public/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 
         <script src="{{asset('js/app.js')}}"></script>
 
@@ -50,24 +50,24 @@
         <!--Menu sidebar -->
         <script src="template/js/sidebarmenu.js"></script>
         <!--stickey kit -->
-        <script src="assets/plugins/sticky-kit-master/dist/sticky-kit.js"></script>
+        <script src="public/assets/plugins/sticky-kit-master/dist/sticky-kit.js"></script>
         <!--Custom JavaScript -->
         <script src="template/js/custom.js"></script>
         <!-- ============================================================== -->
         <!-- This page plugins -->
         <!-- ============================================================== -->
         <!--sparkline JavaScript -->
-        <script src="assets/plugins/sparkline/jquery.sparkline.min.js"></script>
+        <script src="public/assets/plugins/sparkline/jquery.sparkline.min.js"></script>
         <!--morris JavaScript -->
-        <script src="assets/plugins/raphael/raphael-min.js"></script>
-        <script src="assets/plugins/morrisjs/morris.min.js"></script>
+        <script src="public/assets/plugins/raphael/raphael-min.js"></script>
+        <script src="public/assets/plugins/morrisjs/morris.min.js"></script>
         <!-- Chart JS -->
         <script src="template/js/dashboard1.js"></script>
         <!-- ============================================================== -->
         <!-- Style switcher -->
         <!-- ============================================================== -->
-        <script src="assets/plugins/styleswitcher/jQuery.style.switcher.js"></script>
-        <script src="assets/plugins/datatables/jquery.dataTables.min.js"></script>
+        <script src="public/assets/plugins/styleswitcher/jQuery.style.switcher.js"></script>
+        <script src="public/assets/plugins/datatables/jquery.dataTables.min.js"></script>
 
         <script src="template/js/custom_end.js"></script>
         <script>
