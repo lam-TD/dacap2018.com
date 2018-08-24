@@ -1,0 +1,10 @@
+body{
+    font-family: 'Open Sans','Segoe UI' !important;
+}
+h1,h2,h2,h4,h5,h6{
+    font-family: 'Open Sans','Segoe UI' !important;
+}
+
+input, button, select, .card{
+  border-radius: 0px !important;
+}
